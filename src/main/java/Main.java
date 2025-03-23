@@ -1,14 +1,11 @@
-// import static org.junit.jupiter.api.Assertions.assertEquals;
-
-// import org.junit.jupiter.api.Test;
-
 public class Main {
   public static void main(String[] args) {
-    System.out.println("Hello world!");
+    System.out.println("Zamiana stopni Celsjusza na Fahrenheita");
+    int a = 100;
+    for (int i = -a; i <= a; i++)
+      {
+        double n=(i*9/5)+32;
+        System.out.println(i + "°C " + "= " + n + "°F");
+      }
   }
-
-  // @Test
-  // void addition() {
-  //     assertEquals(2, 1 + 1);
-  // }
 }
